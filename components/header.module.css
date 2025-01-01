@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: dimgray;
+}
+.nev ul {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  list-style: none;
+  color: aliceblue;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.logo {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}
