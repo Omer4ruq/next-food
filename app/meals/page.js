@@ -10,7 +10,7 @@ export default async function meals() {
       <header className={styles.header}>
         <h1>Delecious Foods to share</h1>
         <p>Choss your fabourite recipe</p>
-        <p>
+        <p className={styles.cta}>
           <Link href="./meals/share">Share your favourite Recipe</Link>
         </p>
       </header>
